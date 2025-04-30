@@ -10,8 +10,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-
+import Hero from './Component/Hero'
 import Navbar from './Component/navbar'
+import Cards from './Component/Card'
+import MyCarousel from './Component/Crousel'
 // import Navbar from "./Component/navigationmenu";
 
 
@@ -20,7 +22,13 @@ export default function Home() {
   return (
     <div >
 {/* <Navbar></Navbar> */}
+{/* <Navbar></Navbar>
+<Hero></Hero> */}
+{/* <Cards></Cards> */}
 <Navbar></Navbar>
+<MyCarousel></MyCarousel>
+<Cards></Cards>
+
 {/* 
   <Button disabled>Button 1</Button>
   <Button variant="default">Button 2</Button>
